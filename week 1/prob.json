@@ -27,12 +27,12 @@
     },
     {
         "question": "If a spam detection algorithm is tweaked to be more sensitive in detecting spam, i.e. $P(\\text{spam})_{\\text{tweaked}} > P(\\text{spam})_{\\text{original}}$ on the same dataset, which is likely to increase?",
-        "type": "multiple_choice",
+        "type": "many_choice",
         "answers": [
             {
                 "answer": "True Positives",
-                "correct": false,
-                "feedback": "Incorrect."
+                "correct": true,
+                "feedback": "It will leads to more true positive as the algorithm might correct itself from the misclassification when it is more sensitive. But this increase is not the most significant change."
             },
             {
                 "answer": "False Positives",

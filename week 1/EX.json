@@ -7,13 +7,13 @@
                 "type": "value",
                 "value": 2.3,
                 "correct": true,
-                "feedback": "Correct: $\\mathbb{E}(X)(X) = \\sum_{x} [x \\cdot P(X=x)] = 1 \\cdot 0.2 + 2 \\cdot 0.3 + 3 \\cdot 0.5 = 2.3$"
+                "feedback": "Correct: $\\mathbb{E}(X) = \\sum_{x} [x \\cdot P(X=x)] = 1 \\cdot 0.2 + 2 \\cdot 0.3 + 3 \\cdot 0.5 = 2.3$"
             },
             {
                 "type": "value",
                 "value": -1,
                 "correct": true,
-                "feedback": "Answer: $\\mathbb{E}(X)(X) = \\sum_{x} [x \\cdot P(X=x)] = 1 \\cdot 0.2 + 2 \\cdot 0.3 + 3 \\cdot 0.5 = 2.3$"
+                "feedback": "Answer: $\\mathbb{E}(X) = \\sum_{x} [x \\cdot P(X=x)] = 1 \\cdot 0.2 + 2 \\cdot 0.3 + 3 \\cdot 0.5 = 2.3$"
             },
             {
                 "type": "Incorrect",
