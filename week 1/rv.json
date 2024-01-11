@@ -1,0 +1,50 @@
+[
+    {
+        "question": "If $P(A) = 0.5$, $P(B) = 0.3$, and $P(AB)$ = 0.15, what is $P(A|B)$? Type -1 for answer and explanation.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 0.5,
+                "correct": true,
+                "feedback": "Correct. P(A|B) = P(A and B) / P(B) = 0.15 / 0.3 = 0.50."
+            },
+            {
+                "type": "value",
+                "value": -1,
+                "correct": true,
+                "feedback": "Answer: P(A|B) = P(A and B) / P(B) = 0.15 / 0.3 = 0.50."
+            },
+            {
+                "type": "Incorrect",
+                "feedback": "Incorrect"
+            }
+        ]
+    },
+    {
+        "question": "A bag contains 3 red balls and 2 blue balls. If two balls are drawn randomly <b>without replacement</b>, what is the probability that both are red?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "$\\frac{3}{10}$",
+                "correct": true,
+                "feedback": "The probability of drawing two red balls without replacement is (3/5) × (2/4) = 3/10."
+            },
+            {
+                "answer": "$\\frac{2}{5}$",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "$\\frac{1}{2}$",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "$\\frac{3}{5}$",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    }
+]

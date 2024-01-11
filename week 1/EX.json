@@ -1,0 +1,49 @@
+[
+    {
+        "question": "If a discrete random variable $X$ has the following probability mass function: $P(X=1) = 0.2, P(X=2) = 0.3, P(X=3) = 0.5$, what is $\\mathbb{E}(X)$, the expected value of $X$? <br> Type $-1$ for the answer and explanation.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 2.3,
+                "correct": true,
+                "feedback": "Correct: $\\mathbb{E}(X)(X) = \\sum_{x} [x \\cdot P(X=x)] = 1 \\cdot 0.2 + 2 \\cdot 0.3 + 3 \\cdot 0.5 = 2.3$"
+            },
+            {
+                "type": "value",
+                "value": -1,
+                "correct": true,
+                "feedback": "Answer: $\\mathbb{E}(X)(X) = \\sum_{x} [x \\cdot P(X=x)] = 1 \\cdot 0.2 + 2 \\cdot 0.3 + 3 \\cdot 0.5 = 2.3$"
+            },
+            {
+                "type": "Incorrect",
+                "feedback": "Incorrect"
+            }
+        ]
+    },
+    {
+        "question": "For a continuous random variable $Y$ with a probability density function $f(y) = 2y$ for $0 \\leq y \\leq 1$, what is the expected value of $Y$? <br> Type $-1$ for the answer and explanation.",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "range",
+                "range": [
+                    0.66,
+                    0.67
+                ],
+                "correct": true,
+                "feedback": "Correct: The expected value for $Y$ is given by $\\int^1_0 y \\cdot f(y) dy = \\frac23$."
+            },
+            {
+                "type": "value",
+                "value": -1,
+                "correct": true,
+                "feedback": "Answer: The expected value for $Y$ is given by $\\int^1_0 y \\cdot f(y) dy = \\frac23$."
+            },
+            {
+                "type": "Incorrect",
+                "feedback": "Incorrect"
+            }
+        ]
+    }
+]
