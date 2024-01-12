@@ -1,0 +1,54 @@
+[
+    {
+        "question": " In a medical diagnosis algorithm, a false positive result means:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "The algorithm correctly identifies a patient as sick.",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "The algorithm incorrectly identifies a healthy patient as sick",
+                "correct": true,
+                "feedback": "A false positive in medical diagnosis means the algorithm incorrectly identifies a healthy patient as sick."
+            },
+            {
+                "answer": "The algorithm misses a sick patient, identifying them as healthy.",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": " The patient's condition is undetermined by the algorithm",
+                "correct": false,
+                "feedback": "Incorrect."
+            }
+        ]
+    },
+    {
+        "question": "If a spam detection algorithm is tweaked to be more sensitive in detecting spam, i.e. $P(\\text{spam})_{\\text{tweaked}} > P(\\text{spam})_{\\text{original}}$ on the same dataset, which is likely to increase?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "True Positives",
+                "correct": true,
+                "feedback": "It will leads to more true positive as the algorithm might correct itself from the misclassification when it is more sensitive. But this increase is not the most significant change."
+            },
+            {
+                "answer": "False Positives",
+                "correct": true,
+                "feedback": "Increasing the sensitivity of a spam detection algorithm usually leads to more false positives, as the model starts to classify more items as spam, some of which are not actually spam."
+            },
+            {
+                "answer": "True Negatives",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "False Negatives",
+                "correct": false,
+                "feedback": "Incorrect."
+            }
+        ]
+    }
+]
