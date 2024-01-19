@@ -1,0 +1,25 @@
+[
+    {
+        "question": "It is estimated that 50% of emails are spam emails. Some software has been applied to filter these spam emails before they reach your inbox. A certain brand of software claims that it can detect 99% of spam emails, and the probability for a false positive is 5%. \n\n Now if an email is detected as spam, then what is the probability that it is in fact a non-spam email?",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 0.048,
+                "correct": true,
+                "feedback": "Correct: $\\frac{P(\\text{Detected as spam}|\\text{Not Spam})P(\\text{Not Spam})}{P(\\text{Detected as spam}|\\text{Spam})P(\\text{Spam}) + P(\\text{Detected as spam}|\\text{Not Spam})P(\\text{Not Spam})} \\approx 0.048 $"
+            },
+            {
+                "type": "value",
+                "value": -1,
+                "correct": true,
+                "feedback": "Answer: $\\mathbb{E}(X) = \\sum_{x} [x \\cdot P(X=x)] = 1 \\cdot 0.2 + 2 \\cdot 0.3 + 3 \\cdot 0.5 = 2.3$"
+            },
+            {
+                "type": "Incorrect",
+                "feedback": "Incorrect"
+            }
+        ]
+        
+    }
+]
