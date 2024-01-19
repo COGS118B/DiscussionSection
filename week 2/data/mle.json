@@ -12,7 +12,7 @@
             {
                 "type": "value",
                 "value": -1,
-                "correct": true,
+                "correct": false,
                 "feedback": "Correct: $p = \\text{argmax}_p P(D|p)$"
             },
             {
