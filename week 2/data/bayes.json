@@ -12,8 +12,8 @@
             {
                 "type": "value",
                 "value": -1,
-                "correct": true,
-                "feedback": "Answer: $\\mathbb{E}(X) = \\sum_{x} [x \\cdot P(X=x)] = 1 \\cdot 0.2 + 2 \\cdot 0.3 + 3 \\cdot 0.5 = 2.3$"
+                "correct": false,
+                "feedback": "False: $\\frac{P(\\text{Detected as spam}|\\text{Not Spam})P(\\text{Not Spam})}{P(\\text{Detected as spam}|\\text{Spam})P(\\text{Spam}) + P(\\text{Detected as spam}|\\text{Not Spam})P(\\text{Not Spam})}"
             },
             {
                 "type": "Incorrect",
