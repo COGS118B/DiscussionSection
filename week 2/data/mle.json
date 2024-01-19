@@ -1,0 +1,79 @@
+[
+    {
+        "question": "Suppose our samples are x = (0, 0, 1, 1, 0), from Ber(p), where p is unknown. What is the MLE for p?",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 0.4,
+                "correct": true,
+                "feedback": "Correct: $p = \\text{argmax}_p P(D|p)$"
+            },
+            {
+                "type": "value",
+                "value": -1,
+                "correct": true,
+                "feedback": "Correct: $p = \\text{argmax}_p P(D|p)$"
+            },
+            {
+                "type": "Incorrect",
+                "feedback": "Incorrect"
+            }
+        ]
+        
+    }, 
+    {
+        "question": "Suppose we have the same sample x = (0, 0, 1, 1, 0). And suppose we impose the restriction that p $\\in$ {0.2, 0.5, 0.7}. What is the MLE for p?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "0.2",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "0.5",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "0.7",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "Other",
+                "correct": false,
+                "feedback": "Incorrect."
+            }
+        ]
+        
+    },
+    {
+        "question": "Suppose we have the same sample x = (0, 0, 1, 1, 0) and restriction p $\\in$ {0.2, 0.5, 0.7} as in the previous part. And suppose we have a (discrete) prior $\\pi_p$(0.2) = 0.1, $\\pi_p$(0.5) = 0.01, and $\\pi_p$(0.7) = 0.89. What is the MAP for p?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "0.2",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "0.7",
+                "correct": true,
+                "feedback": "Correct. Note the effect of this prior. We get a different maximizer because the strong prior in 0.7"
+            },
+            {
+                "answer": "0.5",
+                "correct": false,
+                "feedback": "Incorrect."
+            }, 
+            {
+                "answer": "Other",
+                "correct": false,
+                "feedback": "Incorrect."
+            }
+        ]
+        
+    }
+]
