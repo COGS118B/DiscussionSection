@@ -1,0 +1,100 @@
+[   
+    {
+        "question": "Is $\\Sigma = \\begin{bmatrix}1 & 2 \\\\ 3 & 2 \\end{bmatrix}$ a valid covariance matrix?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "It is not a valid covariance matrix.",
+                "correct": true,
+                "feedback": "Correct. The covariance matrix must be symmetric, and has non-negative value along the diagonal entries. $\\sigma_{12} \\neq \\sigma_{21}$ in this case. Therefore, the $\\Sigma$ is not a valid covariance matrix."
+            },
+            {
+                "answer": "It is a valid covariance matrix",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+        ]
+        
+    },
+    {
+        "question": "Which of the followings is a possible value for $\\sigma_{11}$?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "$3$",
+                "correct": true,
+                "feedback": "Correct, $\\sigma_{11}$ is the variance of $X$. The variance is a non-negative value. In the contour plot, the value along the x-axis varies from -2 to 2, therefore, the variance of $X$ is non-zero and positive."
+            },
+            {
+                "answer": "$0$",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "$-3$",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "$-9$",
+                "correct": false,
+                "feedback": "Incorrect."
+            }
+        ]
+        
+    },
+    {
+        "question": "Which of the followings is a possible value for $\\sigma_{22}$?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "$5$",
+                "correct": true,
+                "feedback": "Correct, $\\sigma_{22}$ is the variance of $Y$. The variance is a non-negative value. In the contour plot, the value along the y-axis varies from -4 to 4, which varies more than x-axis. therefore, the variance of $Y$ is non-zero and positive, and is larger than the variance of $X$"
+            },
+            {
+                "answer": "$0$",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "$3$",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "$-3$",
+                "correct": false,
+                "feedback": "Incorrect."
+            }
+        ]
+        
+    },
+    {
+        "question": "Which of the followings is a possible value for $\\sigma_{12}$?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "$3$",
+                "correct": true,
+                "feedback": "Correct, $\\sigma_{11}$ is the variance of $X$. The variance is a non-negative value. In the contour plot, the value along the x-axis varies from -2 to 2, therefore, the variance of $X$ is non-zero and positive."
+            },
+            {
+                "answer": "$0$",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "$-3$",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "$-9$",
+                "correct": false,
+                "feedback": "Incorrect."
+            }
+        ]
+        
+    }
+]
