@@ -1,0 +1,55 @@
+[
+    {
+        "question": "In K-means clustering, what does the 'K' in K-means represent?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "The number of clusters to be formed.",
+                "correct": true,
+                "feedback": "Correct, 'K' stands for the number of clusters into which the data is to be grouped. The algorithm tries to find the best way to partition the dataset into these K clusters."
+            },
+            {
+                "answer": "The maximum number of iterations allowed.",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "The distance between cluster centroids.",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "The variance within each cluster.",
+                "correct": false,
+                "feedback": "Incorrect."
+            }
+        ]
+        
+    },
+    {
+        "question": "Which of the following is the most prominent limitation of the K-means algorithm?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "It assumes clusters are of similar size and density.",
+                "correct": true,
+                "feedback": "Correct: K-means works well when clusters are of similar size and density. It may not perform well with clusters of varying shapes and densities."
+            },
+            {
+                "answer": "It can only be used for numerical data.",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "It requires a large amount of training data.",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "It is computationally too complex for large datasets.",
+                "correct": false,
+                "feedback": "Incorrect."
+            }
+        ]
+    }
+]

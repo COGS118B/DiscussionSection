@@ -1,0 +1,81 @@
+[
+    {
+        "question": " In a multivariate normal distribution, what does the covariance matrix represent?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "The variance of each variable and the correlations among them.",
+                "correct": true,
+                "feedback": "Correct, The covariance matrix in a multivariate normal distribution captures two key aspects: the variance of each variable (along the diagonal) and the covariance (or correlation) between each pair of variables (off-diagonal elements)."
+            },
+            {
+                "answer": "The mean values of the variables.",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "The probability density function of the variables.",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "The skewness and kurtosis of the distribution.",
+                "correct": false,
+                "feedback": "Incorrect."
+            }
+        ]
+        
+    },
+    // {
+    //     "question": "How does the multivariate normal distribution behave when the covariance between every pair of variables is zero?",
+    //     "type": "multiple_choice",
+    //     "answers": [
+    //         {
+    //             "answer": "The variables are independent, each with its own normal distribution.",
+    //             "correct": true,
+    //             "feedback": "Correct. If the covariance between every pair of variables in a multivariate normal distribution is zero, it implies that the variables are independent. In this case, the joint distribution can be seen as a product of individual univariate normal distributions."
+    //         },
+    //         {
+    //             "answer": "It reduces to a univariate normal distribution.",
+    //             "correct": false,
+    //             "feedback": "Incorrect."
+    //         },
+    //         {
+    //             "answer": "The variables are perfectly correlated.",
+    //             "correct": false,
+    //             "feedback": "Incorrect."
+    //         },
+    //         {
+    //             "answer": "It behaves as a non-normal distribution.",
+    //             "correct": false,
+    //             "feedback": "Incorrect."
+    //         }
+    //     ]
+    // },
+    {
+        "question": "What is a key property of the contour plots of a multivariate normal distribution?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "They are always circular regardless of the correlation between variables",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "They are parabolic and dependent on the mean of the distribution",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "They are elliptical in shape and oriented based on the correlation between variables.",
+                "correct": true,
+                "feedback": "Correct. The contour plots of a multivariate normal distribution are elliptical. The orientation and shape of these ellipses are determined by the covariance matrix, which reflects how variables are correlated."
+            },
+            {
+                "answer": "They form hyperbolic shapes when variables are correlated.",
+                "correct": false,
+                "feedback": "Incorrect."
+            }
+        ]
+    }
+]
