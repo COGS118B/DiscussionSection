@@ -1,0 +1,61 @@
+[
+    {
+        "question": "The EM algorithm optimizes a lower bound on its objective function.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "False",
+                "correct": false,
+                "feedback": "Incorrect."
+            }
+        ]
+        
+    },
+    {
+        "question": "The EM algorithm is guaranteed to never decrease the value of its objective functon on any iteration.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "True",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "False",
+                "correct": false,
+                "feedback": "Incorrect."
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is one difference between K-means and GMM?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Bernoulli vs Gaussian Distributions",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "MLE vs variational Bayesian Inference",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "Hard assignment of datapoints to clusters vs Soft assignment",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "Means/Variance vs Medians/IQR",
+                "correct": false,
+                "feedback": "Incorrect."
+            }
+        ]
+    }
+]
