@@ -1,0 +1,28 @@
+[
+    {
+        "question": "In a doc test (the part in comments in the above image), what does this section outline?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Nothing",
+                "correct": false,
+                "feedback": "Incorrect. Doc tests serve a specific purpose in documentation."
+            },
+            {
+                "answer": "Comments made by TAs that they forgot to delete",
+                "correct": false,
+                "feedback": "Incorrect. Doc tests are intentional parts of documentation."
+            },
+            {
+                "answer": "Example Test Cases",
+                "correct": true,
+                "feedback": "Correct. Doc tests provide example test cases to illustrate how functions are used and to test their functionality."
+            },
+            {
+                "answer": "Documentation or Description of Function",
+                "correct": true,
+                "feedback": "Correct. Doc tests can serve as part of the documentation by providing examples of how the function is intended to be used."
+            }
+        ]
+    }
+]

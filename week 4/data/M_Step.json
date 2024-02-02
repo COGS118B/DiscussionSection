@@ -1,0 +1,28 @@
+[
+    {
+        "question": "What is the primary goal of the Maximization step (M-step) in the GMM algorithm?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Compute the likelihood of the observed data.",
+                "correct": false,
+                "feedback": "Incorrect. While likelihood computation is part of the GMM algorithm, it is not the main focus of the M-step."
+            },
+            {
+                "answer": "Update the weights of each cluster.",
+                "correct": false,
+                "feedback": "Partially correct. Updating the weights is a part of the M-step, but not its primary goal."
+            },
+            {
+                "answer": "Update the mean and covariance of each cluster.",
+                "correct": true,
+                "feedback": "Correct. The M-step updates the parameters of the Gaussian components (means, covariances, and mixing coefficients) to maximize the expected log-likelihood."
+            },
+            {
+                "answer": "Adjust the learning rate for model convergence.",
+                "correct": false,
+                "feedback": "Incorrect. The learning rate is not typically adjusted in the M-step of the GMM algorithm."
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "question": "What is the primary goal of the Expectation step (E-step) in the Gaussian Mixture Model (GMM) algorithm?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Maximize the likelihood of the observed data given the current parameters.",
+                "correct": false,
+                "feedback": "Incorrect. Maximizing the likelihood is the overall goal of the algorithm, not specific to the E-step."
+            },
+            {
+                "answer": "Update the model parameters to better fit the data.",
+                "correct": false,
+                "feedback": "Incorrect. This is more aligned with the M-step, not the E-step."
+            },
+            {
+                "answer": "Assign probabilities to each data point belonging to different clusters.",
+                "correct": true,
+                "feedback": "Correct, the E-step involves computing responsibilities, or probabilities, of data points belonging to each cluster."
+            },
+            {
+                "answer": "Optimize the convergence speed of the algorithm.",
+                "correct": false,
+                "feedback": "Incorrect. While important, optimizing convergence speed is not the primary goal of the E-step."
+            }
+        ]
+    }
+]
